@@ -1,0 +1,15 @@
+{
+    "extends": "@tsconfig/svelte/tsconfig.json",
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        ".routify/*",
+        "node_modules/*",
+        "dist/*"
+    ],
+    "compilerOptions": {
+        // https://github.com/vitejs/vite/issues/4581
+        "importsNotUsedAsValues": "remove"
+    }
+}
